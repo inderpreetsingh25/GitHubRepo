@@ -1,0 +1,12 @@
+Testsuite: tests.DemoTest1
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+
+Testcase: additon took 0.002 sec
+	FAILED
+testcase fails expected 6 but gives 5 expected:<6> but was:<5>
+junit.framework.AssertionFailedError: testcase fails expected 6 but gives 5 expected:<6> but was:<5>
+	at tests.DemoTest1.additon(Unknown Source)
+	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:452)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:139)
+
