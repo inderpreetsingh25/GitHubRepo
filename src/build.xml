@@ -53,7 +53,7 @@
 				<formatter type="xml" usefile="true" />
 			</batchtest>
 		</junit>
-		
+
 		<junitreport todir="${test.report.dir}">
 			<fileset dir="${test.report.dir}">
 				<include name="TEST-*.xml" />

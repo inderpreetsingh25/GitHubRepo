@@ -1,10 +1,19 @@
 Testsuite: tests.DemoTest1
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
 
-Testcase: additon took 0.002 sec
+Testcase: substraction took 0.003 sec
 	FAILED
-testcase fails expected 6 but gives 5 expected:<6> but was:<5>
-junit.framework.AssertionFailedError: testcase fails expected 6 but gives 5 expected:<6> but was:<5>
+testcase for substraction expected result 5 output of result1 expected:<5> but was:<1>
+junit.framework.AssertionFailedError: testcase for substraction expected result 5 output of result1 expected:<5> but was:<1>
+	at tests.DemoTest1.substraction(Unknown Source)
+	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:452)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:139)
+
+Testcase: additon took 0 sec
+	FAILED
+testcase for addtion expected result 1 output of result5 expected:<1> but was:<5>
+junit.framework.AssertionFailedError: testcase for addtion expected result 1 output of result5 expected:<1> but was:<5>
 	at tests.DemoTest1.additon(Unknown Source)
 	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
 	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:452)
